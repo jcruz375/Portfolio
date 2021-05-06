@@ -1,0 +1,37 @@
+.headerContent {
+  header {
+    width: 100vw;
+    height: 5.5rem;
+
+    background: var(--gray-800);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    a {
+      color: var(--white);
+      text-decoration: none;
+      font: 700 1.5rem Nunito, sans-serif;
+
+      transition: 0.2s;
+
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+
+    .links {
+      width: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .contacts {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  }
+}
