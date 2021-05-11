@@ -8,7 +8,11 @@ export default class Mydocument extends Document {
         <Head>
           <link rel="preconnect" href="https://fonts.gstatic.com" />
           <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet" />
-          {/*<link rel="shortcut icon" href="/favicon.png" type="image/png" />*/}
+          <link rel="shortcut icon" href="/logo.png" type="image/png" />
+
+          <title>
+            João | Portfólio
+          </title>
         </Head>
         <body>
           <Main />

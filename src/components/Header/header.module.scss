@@ -13,11 +13,19 @@
       color: var(--white);
       text-decoration: none;
       font: 700 1.5rem Nunito, sans-serif;
+      
 
       transition: 0.2s;
 
       &:hover {
         opacity: 0.6;
+      }
+    }
+
+    .linkHome {
+      a {
+        position: relative;
+        top: 4px;
       }
     }
 
@@ -29,6 +37,7 @@
     }
 
     .contacts {
+      width: 4rem;
       display: flex;
       align-items: center;
       justify-content: space-between;
